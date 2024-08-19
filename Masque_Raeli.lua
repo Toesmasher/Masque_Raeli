@@ -5,7 +5,7 @@ if not MSQ then return end
 
 MSQ:AddSkin('Raeli - Square Edge', {
 	Author = 'Raeli',
-	Version = GetAddOnMetadata('Masque_Raeli', 'Version'),
+	Version = C_AddOns.GetAddOnMetadata('Masque_Raeli', 'Version'),
 	Masque_Version = 90001,
 	Shape = 'Square',
 	Description = "A simple sqaure pixel border skin.",
